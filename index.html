@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +14,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f5a8d9c68e.js" crossorigin="anonymous"></script>
+
     <style>
         .manrope {
             font-family: 'manrope', sans-serif;
         }
+
+        .title {
+            color: #212121;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .description {
+            color: #494949;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .arrow {
+            transform: rotate(-45deg);
+            padding: 6px;
+            border-radius: 50%;
+            background: #ABEF5F;
+        }
     </style>
 </head>
+
 <body class="manrope">
-    
-    <header>
+
+    <header class="xl:w-4/5 w-[90vw] mx-auto container">
+        <nav>
+
+        </nav>
+
+        <!-- hero section -->
+
+        <section>
+            <div class="">
+                <div class="text-center space-y-7">
+                    <img src="assets/banner.png" alt="" class="mx-auto px-9">
+                    <h2 class="font-extrabold text-3xl sm:text-4xl lg:text-6xl">
+                        A barn house of this design has a striking appearance</h2>
+                    <p class="description lg:w-[70%] mx-auto">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <div>
+                        <a href=""><button class="sm:px-6 px-20 py-3 bg-[#ABEF5F80] text-xl font-bold rounded-[32px]">View Details <i class="fa-solid fa-arrow-right arrow ml-2"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </header>
 
@@ -30,7 +76,8 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
