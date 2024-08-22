@@ -22,12 +22,6 @@
             font-family: 'manrope', sans-serif;
         }
 
-        .title {
-            color: #212121;
-            font-size: 40px;
-            font-weight: 700;
-        }
-
         .description {
             color: #494949;
             font-size: 16px;
@@ -45,7 +39,7 @@
 
 <body class="manrope">
 
-    <header class="xl:w-4/5 w-[90vw] mx-auto container">
+    <header class="xl:w-4/5 w-[90vw] mx-auto container xl:mb-32 mb-20">
         <nav class="py-14 flex justify-between items-center">
 
             <div>
@@ -58,16 +52,25 @@
                 <ul class="text-[#737373] xl:flex gap-9 hidden ">
                     <li class="text-[#212121] font-extrabold"><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
-                    <li><a href=""></a>Portfolio</li>
-                    <li><a href=""></a>Blogs</li>
-                    <li><a href=""></a>Contact Us</li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
             <div class="space-x-2">
-                <i class="fa-solid fa-magnifying-glass p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] hidden sm:inline-block"></i>
-                <i class="fa-solid fa-cart-shopping p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] hidden sm:inline-block"></i>
-                <a href=""><button class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px] hidden sm:inline-block">Book Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white "></i></button></a>
-                <i class="fa-solid fa-bars p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] lg:hidden"></i>
+                <i
+                    class="fa-solid fa-magnifying-glass p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] hidden md:inline-block"></i>
+
+                <i
+                    class="fa-solid fa-cart-shopping p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] hidden md:inline-block"></i>
+
+                <a href=""><button
+                        class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px] hidden sm:inline-block">Book
+                        Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white "></i></button></a>
+
+                <button><i
+                        class="fa-solid fa-bars p-5 border-[1px] border-solid rounded-full text-[#9b9a9a] xl:hidden"></i></button>
+
             </div>
         </nav>
 
@@ -84,7 +87,9 @@
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
                     <div>
-                        <a href=""><button class="sm:px-6 px-20 py-3 bg-[#ABEF5F80] text-xl font-bold rounded-[32px]">View Details <i class="fa-solid fa-arrow-right arrow ml-2"></i></button></a>
+                        <a href=""><button
+                                class="sm:px-6 px-20 py-3 bg-[#ABEF5F80] text-xl font-bold rounded-[32px]">View Details
+                                <i class="fa-solid fa-arrow-right arrow ml-2"></i></button></a>
                     </div>
                 </div>
             </div>
@@ -92,7 +97,58 @@
 
     </header>
 
-    <main>
+    <main class="bg-gray-100">
+
+        <!-- section 2 -->
+
+        <section>
+            <div class="xl:w-4/5 w-[90vw] mx-auto container xl:py-24 py-20 xl:flex justify-between items-center gap-8 space-y-6">
+
+                <div class="space-y-6 xl:w-1/2 text-center xl:text-left relative">
+                    <img src="assets/Vector.png" alt="" class="absolute xl:-top-8 xl:-left-14 -top-14 left-16 md:hidden block xl:block">
+                    <div>
+                        <span class="badge p-4  "><i class="fa-solid fa-arrow-right pr-3"></i>About Us</span>
+                    </div>
+                    <h3 class=" text-3xl font-bold xl:text-5xl text-[#212121]">
+                        We design thoughtful, liveable spaces
+                    </h3>
+                    <p class="description w-full lg:w-5/6 lg:mx-auto xl:w-full ">
+                        The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+
+                    <div class=" md:flex items-center gap-6 block xl:block space-y-6 md:space-y-0 xl:space-y-6">
+                        <!-- card 1 -->
+
+                        <div class="card card-side bg-white p-6 gap-5 ">
+                            <div class="w-24">
+                                <img src="assets/commercial.png" alt="residential"  />
+                            </div>
+                            <div class="py-2">
+                              <h4 class="card-title font-extrabold">Commercial</h4>
+                              <p class="description text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+
+                        <div class="card card-side bg-white p-6 gap-5">
+                            <div class="w-24">
+                                <img src="assets/residential.png" alt="residential"  />
+                            </div>
+                            <div class=" py-2">
+                              <h4 class="card-title font-extrabold">Residential</h4>
+                              <p class="description text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <img src="assets/Rectangle.png" alt="" class="rounded-2xl w-full h-64 md:h-[25rem] xl:h-full object-cover ">
+                </div>
+            </div>
+        </section>
 
     </main>
 
