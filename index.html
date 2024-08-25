@@ -21,30 +21,17 @@
         .manrope {
             font-family: 'manrope', sans-serif;
         }
-
-        .description {
-            color: #494949;
-            font-size: 16px;
-            font-weight: 500;
-        }
-
-        .arrow {
-            transform: rotate(-45deg);
-            padding: 6px;
-            border-radius: 50%;
-            background: #ABEF5F;
-        }
     </style>
 </head>
 
 <body class="manrope">
-
+    
     <header class="xl:w-4/5 w-[90vw] mx-auto container xl:mb-32 mb-20">
         <nav class="py-14 flex justify-between items-center">
 
             <div>
                 <a href="" class="text-3xl font-extrabold text-[#212121]">
-                    <i class="fa-solid fa-arrow-right arrow mr-2"></i>
+                    <i class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full bg-[#ABEF5F] mr-2"></i>
                     Rinterio
                 </a>
             </div>
@@ -68,7 +55,8 @@
 
                 <a href="">
                     <button class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px] hidden sm:inline-block">
-                        Book Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white"></i>
+                        Book Consult <i
+                            class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full  ml-2 bg-black text-white"></i>
                     </button>
                 </a>
 
@@ -87,14 +75,15 @@
                     <img src="assets/banner.png" alt="" class="mx-auto px-9">
                     <h2 class="font-extrabold text-3xl sm:text-4xl lg:text-6xl text-[#212121]">
                         A barn house of this design has a striking appearance</h2>
-                    <p class="description lg:w-[70%] mx-auto">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    <p class="text-[#494949] font-medium lg:w-[70%] mx-auto">
+                        This barn house features a modern twist on classic design, with striking clean lines, natural
+                        wood siding, and expansive windows, creating a visually stunning and inviting home.
                     </p>
                     <div>
                         <a href="">
                             <button class="sm:px-6 px-20 py-3 bg-[#ABEF5F80] text-xl font-bold rounded-[32px]">View
-                                Details <i class="fa-solid fa-arrow-right arrow ml-2"></i>
+                                Details <i
+                                    class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full bg-[#ABEF5F] ml-2"></i>
                             </button>
                         </a>
                     </div>
@@ -121,24 +110,25 @@
                     <h3 class=" text-3xl font-bold xl:text-5xl text-[#212121]">
                         We design thoughtful, liveable spaces
                     </h3>
-                    <p class="description w-full lg:w-5/6 lg:mx-auto xl:w-full ">
-                        The barn house captivates with its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    <p class="text-[#494949] font-medium w-full lg:w-5/6 lg:mx-auto xl:w-full ">
+                        We design thoughtful, livable spaces that blend aesthetic appeal with functionality, creating
+                        environments that are both beautiful and practical for everyday living.
                     </p>
 
                     <!-- card div -->
 
                     <div class=" md:flex items-center gap-6 block xl:block space-y-6 md:space-y-0 xl:space-y-6 ">
+                        
                         <!-- card 1 -->
-
                         <div class="card card-side bg-white p-6 gap-5 text-left">
                             <div class="w-24">
                                 <img src="assets/commercial.png" alt="residential" />
                             </div>
                             <div class="py-2">
                                 <h4 class="card-title font-extrabold">Commercial</h4>
-                                <p class="description text-[#737373]">The barn house captivates with its blend of rustic
-                                    charm and modern.</p>
+                                <p class=" font-medium text-[#737373]">
+                                    We craft innovative commercial spaces that merge style with functionality.
+                                </p>
                             </div>
                         </div>
 
@@ -150,8 +140,9 @@
                             </div>
                             <div class=" py-2">
                                 <h4 class="card-title font-extrabold">Residential</h4>
-                                <p class="description text-[#737373]">The barn house captivates with its blend of rustic
-                                    charm and modern.</p>
+                                <p class=" font-medium text-[#737373]">
+                                    We create elegant, functional residential spaces that offer comfort and style.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -159,8 +150,7 @@
 
                 <!-- img div -->
                 <div class="">
-                    <img src="assets/Rectangle.png" alt=""
-                        class="rounded-2xl w-full h-64 md:h-[25rem] xl:h-full object-cover ">
+                    <img src="assets/Rectangle.png" alt="" class="rounded-2xl w-full h-64 md:h-[25rem] xl:h-full object-cover ">
                 </div>
             </div>
 
@@ -179,56 +169,64 @@
                     <h3 class=" text-3xl font-bold xl:text-5xl text-[#212121]">
                         What our Services
                     </h3>
-                    <p class="description w-full lg:w-5/6 lg:mx-auto xl:w-full ">
-                        The barn house captivates with its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    <p class="text-[#494949] font-medium w-full lg:w-5/6 lg:mx-auto xl:w-full ">
+                        Our services include personalized design solutions, space planning, and project management,
+                        delivering customized residential and commercial spaces that merge aesthetics with
+                        functionality.
                     </p>
                     <hr>
                     <div class="flex sm:gap-20 text-center xl:justify-start justify-center flex-wrap">
                         <div class="w-1/2 sm:w-auto py-3">
                             <p class="text-3xl font-bold xl:text-5xl text-[#212121]">134+</p>
-                            <p class="font-medium">project per year</p>
+                            <p class="font-medium">Project per year</p>
                         </div>
                         <div class="w-1/2 sm:w-auto py-3">
-                            <p class="text-3xl font-bold xl:text-5xl text-[#212121]">134+</p>
-                            <p class="font-medium">project per year</p>
+                            <p class="text-3xl font-bold xl:text-5xl text-[#212121]">564+</p>
+                            <p class="font-medium">Happy Client</p>
                         </div>
                         <div class="py-3 ">
-                            <p class="text-3xl font-bold xl:text-5xl text-[#212121]">134+</p>
-                            <p class="font-medium">project per year</p>
+                            <p class="text-3xl font-bold xl:text-5xl text-[#212121]">634+</p>
+                            <p class="font-medium">Team Members</p>
                         </div>
                     </div>
                     <hr>
                     <button class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px] w-full md:w-auto">
-                        Book Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white"></i>
+                        Book Consult <i
+                            class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full  ml-2 bg-black text-white"></i>
                     </button>
 
                 </div>
 
-                <div class="text-center grid grid-cols-2 gap-6 relative xl:w-1/2 ">
+                <!-- side card -->
 
-                    <div class="px-4 py-8 bg-white rounded-2xl space-y-4 ">
+                <div class="text-center grid grid-cols-2 gap-2 relative xl:w-1/2 ">
+
+                    <div
+                        class="px-4 py-8 bg-white rounded-2xl flex flex-col gap-4 justify-center items-center skew-x-6 scale-75">
                         <img src="assets/comment-01.png" alt="" class="mx-auto">
-                        <p class="text-xl font-extrabold text-[#1c1c1c]">Concept</p>
-                        <p class="description">Happy Client Review</p>
+                        <p class="text-xl font-extrabold text-[#1c1c1c]">400+</p>
+                        <p class="text-[#494949] font-medium">Happy Client Review</p>
                     </div>
 
-                    <div class="px-4 py-8 bg-white rounded-2xl space-y-4 relative top-20">
+                    <div
+                        class="px-4 py-8 bg-white rounded-2xl flex flex-col gap-4 justify-center items-center relative top-20 skew-x-6 scale-75">
                         <img src="assets/departement.png" alt="" class="mx-auto">
-                        <p class="text-xl font-extrabold text-[#1c1c1c]">Concept</p>
-                        <p class="description">Work Departments</p>
+                        <p class="text-xl font-extrabold text-[#1c1c1c]">200+</p>
+                        <p class="text-[#494949] font-medium">Work Departments</p>
                     </div>
 
-                    <div class="px-4 py-8 bg-white rounded-2xl space-y-4 ">
+                    <div
+                        class="px-4 py-8 bg-white rounded-2xl flex flex-col gap-4 justify-center items-center skew-x-6 scale-75">
                         <img src="assets/Group 8.png" alt="" class="mx-auto">
-                        <p class="text-xl font-extrabold text-[#1c1c1c]">Concept</p>
-                        <p class="description">Our Happy Client</p>
+                        <p class="text-xl font-extrabold text-[#1c1c1c]">500+</p>
+                        <p class="text-[#494949] font-medium">Our Happy Client</p>
                     </div>
 
-                    <div class="px-4 py-8 bg-white rounded-2xl space-y-4 relative top-20">
+                    <div
+                        class="px-4 py-8 bg-white rounded-2xl flex flex-col gap-4 justify-center items-center relative top-20 skew-x-6 scale-75">
                         <img src="assets/user-multiple.png" alt="" class="mx-auto">
-                        <p class="text-xl font-extrabold text-[#1c1c1c]">Concept</p>
-                        <p class="description">Staff Members</p>
+                        <p class="text-xl font-extrabold text-[#1c1c1c]">600+</p>
+                        <p class="text-[#494949] font-medium">Staff Members</p>
                     </div>
                 </div>
             </div>
@@ -249,8 +247,9 @@
                         Our Works Process
                     </h3>
                     <p class="text-base font-medium lg:w-5/6 lg:mx-auto ">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                        weathered wood, sleek metal accents.
+                        Our work process involves understanding client needs, creating innovative designs, meticulous
+                        planning, and seamless execution, ensuring every project is completed with attention to detail
+                        and excellence.
                     </p>
                 </div>
 
@@ -261,31 +260,47 @@
                     <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-3">
                         <img src="assets/concept.png" alt="">
                         <h4 class="text-xl font-extrabold text-[#1c1c1c]">Concept</h4>
-                        <p class="description">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-[#494949] font-medium">
+                            Our concept blends creativity with practicality, crafting unique designs that reflect client
+                            vision and optimize functionality.
+                        </p>
                     </div>
+
                     <div class="p-6 bg-[#EFDA6E] rounded-2xl space-y-3">
                         <img src="assets/flow-chart.png" alt="">
                         <h4 class="text-xl font-extrabold text-[#1c1c1c]">Design Process</h4>
-                        <p class="description">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-[#494949] font-medium">
+                            Our design process includes client consultation, concept development, detailed planning, and
+                            seamless execution for perfect results.
+                        </p>
                     </div>
+
                     <div class="p-6 bg-[#A4DAC3] rounded-2xl space-y-3">
                         <img src="assets/vision.png" alt="">
                         <h4 class="text-xl font-extrabold text-[#1c1c1c]">Supervision</h4>
-                        <p class="description">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-[#494949] font-medium">
+                            Our supervision ensures quality control, timely execution, and adherence to design plans,
+                            guaranteeing exceptional project outcomes.
+                        </p>
                     </div>
+
                     <div class="p-6 bg-[#77AAEA] rounded-2xl space-y-3">
                         <img src="assets/budget-planning.png" alt="">
                         <h4 class="text-xl font-extrabold text-[#1c1c1c]">Budget Planning</h4>
-                        <p class="description">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-[#494949] font-medium">
+                            Our budget planning provides accurate cost estimates, optimizes expenses, and ensures
+                            financial efficiency throughout the project.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- section 4 -->
+        <!-- section 5 -->
 
         <section class="xl:bg-white ">
             <div class="xl:w-4/5 w-[90vw] mx-auto container xl:py-24 py-20 space-y-6">
+
                 <div class="text-center space-y-6 ">
                     <div>
                         <span class="badge p-4 bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right pr-3"></i>
@@ -296,8 +311,8 @@
                         Our Latest Portfolio
                     </h3>
                     <p class="text-base font-medium lg:w-5/6 lg:mx-auto ">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                        weathered wood, sleek metal accents.
+                        Explore our latest portfolio showcasing innovative designs and successful projects that
+                        highlight our creative expertise and attention to detail.
                     </p>
                 </div>
 
@@ -310,11 +325,13 @@
                         <img src="assets/img1.png" alt="Album" />
                         <div class="space-y-5 ">
                             <h2 class="card-title font-extrabold">Commercial</h2>
-                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house
-                                captivates with its blend of rustic charm and modern .</p>
+                            <p>
+                                Our commercial design services create functional, stylish spaces that enhance business
+                                operations and brand identity.
+                            </p>
                             <a href="">
                                 <button class=" text-xl font-extrabold  py-3 ">View Details <i
-                                        class="fa-solid fa-arrow-right arrow ml-2"></i>
+                                        class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full bg-[#ABEF5F] ml-2"></i>
                                 </button>
                             </a>
                         </div>
@@ -342,13 +359,14 @@
                         class="card lg:card-side border-[1px] border-solid border-[#E9E9E9] rounded-3xl p-6 flex flex-col md:flex-row gap-5 md:items-center xl:col-span-6 md:col-span-2 xl:h-56 2xl:h-auto">
 
                         <img src="assets/img4.png" alt="Album" />
-                        <div class=" ">
+                        <div class="2xl:space-y-5  ">
                             <h2 class="card-title font-extrabold">Commercial</h2>
-                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house
-                                captivates with its blend of rustic charm and modern .</p>
+                            <p>
+                                Our commercial design services create functional, stylish spaces that enhance business.
+                            </p>
                             <a href="">
                                 <button class=" text-xl font-extrabold  py-3 ">View Details <i
-                                        class="fa-solid fa-arrow-right arrow ml-2"></i>
+                                        class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full bg-[#ABEF5F] ml-2"></i>
                                 </button>
                             </a>
                         </div>
@@ -385,8 +403,8 @@
                         Let’s Discuss Next Project
                     </h3>
                     <p class="text-base font-medium lg:w-5/6 lg:mx-auto ">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                        weathered wood, sleek metal accents.
+                        Let’s discuss your next project to explore innovative design ideas and solutions tailored to
+                        your vision, ensuring a personalized approach that meets your specific needs and goals.
                     </p>
                 </div>
 
@@ -406,8 +424,10 @@
                             class="col-span-2 rounded-3xl px-5 py-4 w-full h-60 resize-none"></textarea>
                     </form>
                 </div>
+
                 <button class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px]  w-full">
-                    Book Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white"></i>
+                    Book Consult <i
+                        class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full ml-2 bg-black text-white"></i>
                 </button>
             </div>
         </section>
@@ -418,12 +438,14 @@
         <div class="xl:w-4/5 w-[90vw] mx-auto container py-24">
             <div class="text-center mb-12">
                 <a href="" class="text-3xl font-extrabold text-[#E9E9E9] mb-4">
-                    <i class="fa-solid fa-arrow-right arrow mr-2 text-[#1c1c1c]"></i>
+                    <i
+                        class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full bg-[#ABEF5F] mr-2 text-[#1c1c1c]"></i>
                     Rinterio
                 </a>
                 <p class="text-base font-medium lg:w-5/6 lg:mx-auto text-[#737373] mt-4">
-                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                    weathered wood, sleek metal accents.
+                    Rinterio represents innovative design excellence, blending creativity with functionality to deliver
+                    exceptional residential and commercial spaces. Our logo embodies our commitment to quality and
+                    unique vision.
                 </p>
             </div>
             <div>
@@ -439,7 +461,8 @@
 
             <div class="text-center mt-12">
                 <button class="px-5 py-3 bg-[#ABEF5F] text-xl font-bold rounded-[32px] w-full md:w-auto">
-                    Book Consult <i class="fa-solid fa-arrow-right arrow ml-2 bg-black text-white"></i>
+                    Book Consult <i
+                        class="fa-solid fa-arrow-right -rotate-45 p-[6px] rounded-full ml-2 bg-black text-white"></i>
                 </button>
             </div>
         </div>
